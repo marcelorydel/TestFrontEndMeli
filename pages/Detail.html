@@ -1,0 +1,40 @@
+<head>
+	<title>Detalle del producto</title>
+	<script src="../script/Utils.js"></script>
+	<link rel="stylesheet" type="text/css" href="../style/App.css">
+
+	<script src="../script/Detail.js"></script>	
+	<link rel="stylesheet" type="text/css" href="../style/Detail.css">
+</head>
+<body id="idBody">
+	<header class="bodyHeader">
+		<div>
+			<a>
+				<img class="logoMeli" src="/img/Logo_ML@2x.png">
+			</a>
+				<input value="" id="searchInput" type="text" placeholder="Nunca dejes de buscar" >				
+				<button id="btnBuscar" onclick="filtrar()"><img src="/img/ic_Search.png"></button>
+
+				<input value="" id="idInput" type="text" placeholder="Buscar producto por ID" >	
+				<button id="btnBuscarPorID" onclick="buscarPorID()"><img src="/img/ic_Search.png"></button>
+		</div>
+	</header>
+	<div class="marginHigh" id="content">
+		<div class="divImg">
+			<img id="imagen" src="#">
+			<p id="descHeader">Descripción del producto</p>
+			<p id="descripcion"></p>
+		</div>
+		<div class="divForm">
+			<p id="estado" class="marginHigh"></p>
+			<p id="titulo" class="marginLow"></p>
+			<div id="precioTotal" class="marginHigh">
+				<strong id="precio"></strong>
+				<sup id="decimal"></sup>
+			</div>
+			<input type="button" id="btnComprar" class="marginHigh" value="Comprar">
+			<li id="imagenes"></li>
+		</div>
+	</div>
+	<span id="warning">¡No existe el producto con ese ID!</span>
+</body>

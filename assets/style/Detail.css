@@ -1,0 +1,75 @@
+.bodyHeader{
+	background-color: #FFE600
+}
+.divImg{
+	display: inline-block;
+}
+.divForm{
+	display: inline-block;
+	position: absolute;
+	margin-left: 32px;
+	height:680px;
+}
+#idBody{
+	/*display: none;*/
+}
+.marginHigh{
+	margin-top: 32px;
+}
+.marginLow{
+	margin-top: 16px;
+}
+.divImg{
+	width: 680px;
+	height: 320;
+}
+#imagen{
+	margin: auto;
+	display: block;	
+	width:680px;		
+}
+#estado{
+	font-size: 14px
+}
+#titulo{
+	font-size: 24px;
+	font-weight: bold;
+}
+#precioTotal{
+	font-size: 48px;
+}
+#btnComprar{
+	background-color: #3483FA;
+	width: 180px;
+	height: 32px;
+	border: none;
+	color: white;
+}
+#titulo{
+	margin-top: 32px;
+	font-size: 24px;
+}
+#descripcion{
+	margin-left: 32px;
+	font-size: 16px;
+}
+#descHeader{
+	margin-top: 64px;
+	margin-left: 32px;
+	font-size: 28px
+}
+#warning{
+	font-size: 50px;
+	visibility: hidden;
+}
+#imagenes{
+	list-style: none;
+	margin-top: 32px;
+}
+.thumbnail{
+	float: left;
+	width: 60px;
+}
+.thumbnail:hover {
+ 	border-style: outset;
+}

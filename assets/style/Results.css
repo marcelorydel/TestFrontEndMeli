@@ -1,0 +1,51 @@
+#results{
+	list-style: none;
+}
+
+.liImg{
+	display: inline-block;
+}
+
+span{
+	display: inline-block;
+	margin-left: 32px;
+	position: absolute;
+}
+
+.ubicacion{
+	margin-left: 320px
+}
+
+h2{
+	font-size: 24px;
+}
+
+p{
+	font-size: 18px;
+}
+
+li{
+	margin: 32px;
+}
+
+li img{
+	width: 180px;
+	height: 180px;
+	border-radius: 4px;
+}
+
+.estado{
+	text-align: right;
+	width: 1000px;
+}
+
+.freeShipping{
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+
+#warning{
+	font-size: 50px;
+	visibility: hidden;
+}

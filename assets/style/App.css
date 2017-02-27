@@ -1,0 +1,26 @@
+.bodyHeader{
+	background-color: #FFE600
+}
+
+#searchInput{
+	height: 30px;
+	margin: 20px;
+	width: 600px;
+	padding: 20px;
+	margin-left: 300px;
+}
+
+#idInput{
+	margin-left: 250px;
+	padding: 10px;
+}
+
+#btnBuscar{
+	height: 32px;
+}
+
+.logoMeli{
+	position: absolute;
+	left:160px;
+	margin-top: 5px;
+}
